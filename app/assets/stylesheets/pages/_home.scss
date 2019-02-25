@@ -1,1 +1,7 @@
 // Specific CSS for your home-page
+.home {
+  background-image: asset-url('sahara.jpg');
+  height: 100vh;
+  background-size: cover;
+  margin-top: -80px;
+}
