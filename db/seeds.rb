@@ -13,7 +13,7 @@ places_attributes = [
     name:                 'Tristan De Cunha',
     continent:            'Africa',
     availability:         true,
-    level_of_remoteness:  '3'
+    level_of_remoteness:  '2'
   },
  {
     name:                 'Motuo',
