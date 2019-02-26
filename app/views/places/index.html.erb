@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="row places-row">
+
+  <% @places.each do |place| %>
+      <%= render 'shared/card', place: place %>
+  <% end %>
+  </div>
+</div>
