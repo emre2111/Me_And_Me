@@ -21,19 +21,38 @@ p {
 }
 
 .show-container {
+  margin-top: 38px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .show-description {
   flex: 1 1 40%;
   margin-right: 23px;
-  background-color: #939393;
+  background-color: #eae8e8;
 }
 
 .show-image {
  flex: 1 1 60%;
  background-size: cover;
  height: 70vh;
+}
 
+.show-icon {
+  position: absolute;
+  right: 45px;
+  top: 27px;
+  font-size: 23px;
+  color: #FFFFFF;
+}
+
+.quote {
+  height: 300px;
+}
+
+.quote p {
+  line-height: 300px;
+  font-family: ‘Rock Salt’, cursive;
+  font-size: 35px;
 }
