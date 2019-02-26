@@ -1,0 +1,28 @@
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  font-weight: lighter;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 23px;
+}
+
+.place-name {
+  position: absolute;
+  bottom: 54px;
+  font-weight: lighter;
+}
+
+.icons {
+  position: absolute;
+  right: 45px;
+  top: 27px;
+  font-size: 20px;
+}

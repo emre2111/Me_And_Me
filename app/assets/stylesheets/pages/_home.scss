@@ -1,7 +1,39 @@
 // Specific CSS for your home-page
+body {
+  color: #2B2B2B;
+  font-family: ‘Cabin’, sans-serif;
+  background-color: #F7F7F7;
+}
+
 .home {
   background-image: asset-url('sahara.jpg');
   height: 100vh;
   background-size: cover;
   margin-top: -80px;
+}
+
+.container {
+  margin-top: 38px;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.show-container {
+  display: flex;
+  justify-content: center;
+}
+
+.show-description {
+  flex: 1 1 40%;
+  margin-right: 23px;
+  background-color: #939393;
+}
+
+.show-image {
+ flex: 1 1 60%;
+ background-size: cover;
+ height: 70vh;
+
 }

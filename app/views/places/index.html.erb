@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="title">
+    <h3>Recommended for you</h3>
+  </div>
+  <div class="row places-row">
+
+  <% @places.each do |place| %>
+      <%= render 'shared/card', place: place %>
+  <% end %>
+  </div>
+</div>
