@@ -33,8 +33,8 @@ ActiveRecord::Schema.define(version: 2019_02_26_124706) do
     t.integer "level_of_remoteness"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "image_url"
     t.string "photo"
+    t.string "image_url"
   end
 
   create_table "users", force: :cascade do |t|
