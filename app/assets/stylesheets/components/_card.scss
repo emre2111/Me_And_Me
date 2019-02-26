@@ -6,8 +6,8 @@
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: lighter;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -17,4 +17,6 @@
 .place-name {
   position: absolute;
   bottom: 54px;
+  font-weight: lighter;
+
 }
