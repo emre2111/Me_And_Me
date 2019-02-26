@@ -1,7 +1,57 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+puts 'Cleaning database...'
+Place.destroy_all
+puts 'Creating places...'
+
+places_attributes = [
+ {
+    name:                 'Sahara',
+    continent:            'Africa',
+    availability:         true,
+    level_of_remoteness:  '2'
+  },
+  {
+    name:                 'Tristan De Cunha',
+    continent:            'Africa',
+    availability:         true,
+    level_of_remoteness:  '3'
+  },
+ {
+    name:                 'Motuo',
+    continent:            'Asia',
+    availability:         true,
+    level_of_remoteness:  '3'
+  },
+  {
+    name:                 'Ittoqqortoormiit',
+    continent:            'North America',
+    availability:         true,
+    level_of_remoteness:  '2'
+  },
+ {
+    name:                 'McMurdo Station',
+    continent:            'Antarctica',
+    availability:         true,
+    level_of_remoteness:  '3'
+  },
+  {
+    name:                 'Easter Island',
+    continent:            'South America',
+    availability:         true,
+    level_of_remoteness:  '2'
+  },
+ {
+    name:                 'Pitcairn Islands',
+    continent:            'Asia',
+    availability:         true,
+    level_of_remoteness:  '2'
+  },
+  {
+    name:                 'Oymyakon',
+    continent:            'Asia',
+    availability:         true,
+    level_of_remoteness:  '1'
+  },
+]
+
+Place.create!(places_attributes)
+puts 'Finished!'
