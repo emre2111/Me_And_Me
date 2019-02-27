@@ -8,7 +8,6 @@ class PlacesController < ApplicationController
   def show
     @place = Place.find(params[:id])
   end
-
 end
 
 # http://localhost:3000/places?utf8=%E2%9C%93&continent=Africa&level_of_remoteness=extremely+remote&commit=Search
