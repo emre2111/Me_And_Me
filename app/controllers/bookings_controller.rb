@@ -10,8 +10,8 @@ class BookingsController < ApplicationController
   end
 
   def create
-    @place = Place.find(params[:place_id])
-    @booking = Booking.new
+    @place = Place.find(params[:booking][:place_id])
+    @booking = Booking.new(booking_params)
     # add some kind of check if place is avaliable
     @booking.user = current_user
     @booking.place = @place
@@ -26,5 +26,11 @@ class BookingsController < ApplicationController
     @booking = Booking.find(params[:id])
     @booking.destroy
     redirect_to # dashboard
+  end
+
+  private
+
+  def booking_params
+    params.require(:booking).permit(:check_in, :check_out)
   end
 end
