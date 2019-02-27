@@ -4,7 +4,7 @@
     <p>In our globalized world that places an impact on big cities and urbanization, we may often forget what the world used to look like before pollution, suburbs, and sprawling malls. Luckily, there are still some amazing spots in the world that are almost completely untouched by human civilization</p>
     <h2>Find a place</h2>
     <div class="form">
-      <%= form_tag("/places", method: "get") do %>
+      <%= form_tag(places_path, method: "get") do %>
         <%= label_tag(:q, "Continent:") %>
         <% continents = [] %>
         <%# @places.each { |place| continents << place.continent.to_s } %>
