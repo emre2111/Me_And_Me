@@ -1,5 +1,58 @@
-.banner {
-  background-image: asset-url('sahara.jpg');
-  height: 100vh;
-  background-size: cover;
+
+
+h1.login-title {
+  line-height: 60px;
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ADADAD;
+  text-align:center;
+  background: #f7f7f7;
+
 }
+
+.loginpage {
+  width: 360px;
+  margin: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.form-inputs {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+}
+
+.user_email.form-group.email.optional.user_email {
+  background-color: #adadad;
+}
+
+.btn {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+
+}
+
+.btn:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.label {
+
+}
+
+

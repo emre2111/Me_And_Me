@@ -1,0 +1,6 @@
+<%= simple_form_for @booking do |f| %>
+<%= f.input :check_in, as: :date, wrapper_html: {class: "form-inline"} %>
+<%= f.input :check_out, as: :date, wrapper_html: {class: "form-inline"} %>
+<%= f.submit 'Book', class: "btn btn-primary" %>
+<% end %>
+
