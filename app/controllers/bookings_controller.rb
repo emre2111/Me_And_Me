@@ -25,7 +25,8 @@ class BookingsController < ApplicationController
   def destroy
     @booking = Booking.find(params[:id])
     @booking.destroy
-    redirect_to # dashboard
+    flash[:notice] = "your booking has been cancelled"
+    redirect_to root_path
   end
 
   private
