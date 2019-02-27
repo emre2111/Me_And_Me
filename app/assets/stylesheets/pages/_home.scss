@@ -1,15 +1,39 @@
 // Specific CSS for your home-page
 body {
-  color: #2B2B2B;
+  color: black;
   font-family: ‘Cabin’, sans-serif;
   background-color: #F7F7F7;
+  text-align: center;
 }
 
 .home {
-  background-image: asset-url('sahara.jpg');
+  // background-image: asset-url('homePageImage.jpg');
+  color: white;
+  display: flex;
+  background-image: linear-gradient(45deg, rgba(0,0,5,0.5) 0%, rgba(0,0,5,0.5) 100%), url('homePageImage.jpg');
   height: 100vh;
   background-size: cover;
-  margin-top: -80px;
+  // margin-top: -108px;
+}
+
+.form {
+  display: inline;
+}
+
+.select_tag {
+  color: black
+}
+
+.home-btn {
+  color: black
+}
+
+.home_content {
+position: absolute;
+top: 15%;
+right: 20%;
+left: 20%;
+align-items: center;
 }
 
 .container {
