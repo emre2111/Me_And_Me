@@ -21,7 +21,7 @@ places_attributes = [
     name:                 'Motuo',
     continent:            'Asia',
     availability:         true,
-    level_of_remoteness:  'extremely remote',
+    level_of_remoteness:  'remote',
     photo:                'https://images.unsplash.com/photo-1468476281245-28a3d0cc7dae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
   },
   {
@@ -49,7 +49,7 @@ places_attributes = [
     name:                 'Pitcairn Islands',
     continent:            'Asia',
     availability:         true,
-    level_of_remoteness:  'very remote',
+    level_of_remoteness:  'remote',
     photo:                'https://images.unsplash.com/photo-1506783323968-e8dad28ae1de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'
   },
   {
