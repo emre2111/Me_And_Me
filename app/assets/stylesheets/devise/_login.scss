@@ -7,15 +7,13 @@ h1.login-title {
   font-weight: 300;
   color: #ADADAD;
   text-align:center;
-  background: #f7f7f7;
 
 }
 
 .loginpage {
-  width: 360px;
+  width: 300px;
   margin: auto;
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid darkgrey;
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -26,12 +24,17 @@ h1.login-title {
   position: relative;
   z-index: 1;
   background: #FFFFFF;
-  max-width: 360px;
+  width: 200px;
+  text-align: center;
+  text-weight: lighter;
+  display: block;
+  margin: 0 auto;
 }
 
-.user_email.form-group.email.optional.user_email {
-  background-color: #adadad;
+.login-input {
+  font-weight: lighter;
 }
+
 
 .btn {
   color: white;
