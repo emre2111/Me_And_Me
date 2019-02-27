@@ -1,1 +1,1 @@
-<div class="book-button"><%= link_to "Book", booking_path, class: 'btn btn-primary' %></div>
+<div class="book-button"><%= link_to "Book", bookings_path(place_id: params[:id]), class: 'btn btn-primary', method: :post %></div>
