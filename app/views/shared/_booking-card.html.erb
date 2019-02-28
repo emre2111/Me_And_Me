@@ -11,7 +11,7 @@
     <div class="card-booking-button text-right">
     <ul class="list-unstyled list-inline">
       <li><%= link_to 'Cancel Booking', booking_path(booking), method: :delete, class: 'btn-ghost btn-dashboard' %></li>
-      <li><%= link_to 'Change Booking', '#', class: 'btn-ghost btn-dashboard' %></li>
+      <li><%= link_to 'Change Booking', edit_booking_path(booking), class: 'btn-ghost btn-dashboard' %></li>
     </ul>
     </div>
   </div>
