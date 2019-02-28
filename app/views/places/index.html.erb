@@ -10,7 +10,7 @@
         <%= select_tag "level_of_remoteness", options_for_select(Place.level_of_remoteness, params[:level_of_remoteness]), class: 'selection-form'%>
       </div>
       <div class="Search-button">
-        <%= submit_tag "Search", class:"btn btn-primary" %>
+        <%= submit_tag "Search", class:"btn-ghost btn-search" %>
       </div>
     <% end %>
   </div>

@@ -46,13 +46,13 @@ align-items: center;
 .home_content p {
 margin-bottom: 40px;
 font-family: 'Oswald', sans-serif;
-  font-weight: 200;
+font-weight: 200;
 }
 
 .home_content h1 {
  margin-bottom: 30px;
  font-family: 'Oswald', sans-serif;
- font-weight: 600;
+ font-weight: 700;
  font-size: 70px;
 }
 
@@ -81,9 +81,10 @@ p {
 }
 
 .show-image {
- flex: 1 1 60%;
+ flex: 1 1 30%;
  background-size: cover;
- height: 70vh;
+ height: 60vh;
+  background-position: center;
 }
 
 .show-icon {
@@ -146,8 +147,17 @@ p {
   display: inline-block;
 }
 
-
-
+.selection-form {
+  color: black;
+  width: 145px;
+  height: 30px;
+  border-radius: 6px;
+  text-align: middle;
+  margin: 10px;
+  display: inline-block;
+  background-color: transparent;
+  border-color: transparent;
+}
 
 
 
