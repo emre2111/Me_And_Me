@@ -3,22 +3,9 @@
     <div class="container">
       <div class="home_content">
         <h1>Find a place with Me&Me</h1>
-        <p>In our globalized world that places an impact on big cities and urbanization, we may often forget what the world used to look like before pollution, suburbs, and sprawling malls. Luckily, there are still some amazing spots in the world that are almost completely untouched by human civilization</p>
+        <p>In our globalized world that places an impact on big cities and urbanization, we may often forget what the world used to look like before pollution, suburbs, and sprawling malls. Luckily, there are still some amazing spots in the world that are almost completely untouched by human civilization. </p>
         <div>
-          <%= form_tag(places_path, method: "get") do %>
-            <%= label_tag(:q, "Continent:") %>
-            <% continents = [] %>
-            <div class="select_tag">
-            <%= select_tag "continent", options_for_select(Place.continents), class: 'selection-form' %>
-            </div>
-            <%= label_tag(:q, "Remoteness:") %>
-            <div class="select_tag">
-              <%= select_tag "level_of_remoteness", options_for_select(Place.level_of_remoteness), class: 'selection-form'%>
-            </div>
-              <div class="home-button">
-                <%= submit_tag "Search", class:"btn btn-primary" %>
-              </div>
-          <% end %>
+          <%= button_to 'Leave me alone', places_path, class: 'btn-ghost' %>
       </div>
     </div>
   </div>

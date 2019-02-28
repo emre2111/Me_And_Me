@@ -2,6 +2,6 @@
 <%= f.input :check_in, as: :date, wrapper_html: {class: "form-inline"} %>
 <%= f.input :check_out, as: :date, wrapper_html: {class: "form-inline"} %>
 <%= f.input :place_id, input_html: {value: params[:id]}, wrapper_html: {class: "hidden"}  %>
-<%= f.submit 'Book', class: "btn btn-primary" %>
+<%= f.submit 'Book', class: "btn-ghost btn-book" %>
 <% end %>
 
