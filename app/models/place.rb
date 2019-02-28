@@ -2,6 +2,10 @@ class Place < ApplicationRecord
   has_many :bookings
   has_many :users, through: :bookings
 
+  #this is for upload
+  mount_uploader :photo, PhotoUploader
+
+
   def self.continents
     pluck(:continent).uniq.sort
   end
