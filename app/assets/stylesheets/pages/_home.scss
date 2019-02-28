@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .home {
   // background-image: asset-url('homePageImage.jpg');
   color: white;
@@ -153,11 +157,17 @@ p {
   height: 30px;
   border-radius: 6px;
   text-align: middle;
-  margin: 10px;
   display: inline-block;
   background-color: transparent;
   border-color: transparent;
 }
+
+.form {
+
+  margin: 50px 60px 0px 60px;
+ }
+
+
 
 
 

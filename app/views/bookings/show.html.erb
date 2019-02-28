@@ -14,13 +14,10 @@
       <div class="booking-buttons text-center">
         <ul class="list-inline">
           <li><%= link_to 'Cancel Booking', booking_path(@booking), method: :delete, class: 'btn-ghost' %></li>
-          <li><%= link_to 'Change Booking', booking_path(@booking), class: 'btn-ghost' %></li>
+          <li><%= link_to 'Change Booking', edit_booking_path(@booking), class: 'btn-ghost' %></li>
           <li><%= link_to 'Dashboard', dashboard_path(current_user), class: 'btn-ghost' %></li>
         </ul>
       </div>
-    </div>
-
-
     <div class="show-image" style="background-image: url(<%= @booking.place.photo%> ) "></div>
   </div>
 </div>
