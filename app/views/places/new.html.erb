@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Add a new Place</h1>
+  <%= simple_form_for(@place) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :continent %>
+    <%= f.input :level_of_remoteness %>
+    <%= f.input :photo %>
+    <%= f.submit class: "btn-ghost"%>
+  <% end %>
+  <%= link_to "Back", places_path, class: "btn-ghost" %>
+</div>

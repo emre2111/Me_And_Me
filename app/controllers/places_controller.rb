@@ -14,6 +14,25 @@ class PlacesController < ApplicationController
     @booking = Booking.new
     @booking.place = @place
   end
+
+  def new
+    @place = Place.new
+  end
+
+  def create
+    @place = Place.create(place_params)
+    if @place.save
+      redirect_to places_path
+    else
+      render :new
+    end
+  end
+
+  private
+
+  def place_params
+    params.require(:place).permit(:name, :continent, :level_of_remoteness, :photo)
+  end
 end
 
 # http://localhost:3000/places?utf8=%E2%9C%93&continent=Africa&level_of_remoteness=extremely+remote&commit=Search
