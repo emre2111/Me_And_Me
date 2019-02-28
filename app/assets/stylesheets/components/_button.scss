@@ -5,6 +5,7 @@
     border-radius: 6px;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
+
   }
   .btn-ghost:hover {
       color: #FFFFFF;
@@ -24,7 +25,37 @@
   }
   .btn-book {
     margin-top: 20px;
+    background-color: transparent;
   }
   .btn-search {
     margin-top: 5px;
+    background-color: transparent;
+  }
+
+  .btn-primary {
+    color: #FFFFFF;
+    border: 1px solid #ffa826;
+    background-color: #ffa826;
+    font-weight: 400;
+    padding: 9px 15px;
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .btn-primary:hover {
+      color: #ffa826;
+      background-color: transparent;
+      -webkit-transition: background-color 0.02s;
+      text-decoration: none;
+      border: 1px solid #ffa826;
+    }
+
+  .btn-opacity {
+    opacity: 0.6;
+    &:hover {
+    opacity: 1;
+    background-color: transparent;
+    color: #ffa826;
+    border: 1px solid #ffa826;
+    }
   }

@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 body {
   color: black;
-   font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   background-color: #F7F7F7;
   text-align: center;
 }
@@ -72,9 +72,8 @@ p {
 }
 
 .show-container {
-  margin-top: 38px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   position: relative;
 }
 
@@ -85,9 +84,9 @@ p {
 }
 
 .show-image {
- flex: 1 1 30%;
- background-size: cover;
- height: 60vh;
+  flex: 1 1 60%;
+  background-size: cover;
+  height: 60vh;
   background-position: center;
 }
 
@@ -116,7 +115,7 @@ p {
 }
 
 .booked-place {
-  color: #3E78B2;
+  color: #ffa826;
 }
 
 .booking-description {
@@ -128,7 +127,7 @@ p {
 }
 
 .booking-buttons {
-  height: 260px;
+  height: 100px;
   line-height: 100px;
 }
 
@@ -167,8 +166,9 @@ p {
   margin: 50px 60px 0px 60px;
  }
 
-
-
+.enjoy-message {
+  font-size: 27px;
+}
 
 
 
