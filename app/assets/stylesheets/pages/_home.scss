@@ -111,11 +111,15 @@ p {
 }
 
 .booked-place {
-  color: #FFA826;
+  color: #3E78B2;
 }
 
 .booking-description {
   margin-top: 50px;
+}
+
+.booking-description h4 {
+  font-weight: lighter;
 }
 
 .booking-buttons {
@@ -125,7 +129,7 @@ p {
 
 
 .bookings {
-  display: flex;
+  // display: flex;
   justify-content: space-around;
 }
 
