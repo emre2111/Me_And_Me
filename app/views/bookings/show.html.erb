@@ -4,16 +4,17 @@
       <div class="booking-description text-center">
         <h4><strong class="booked-place"><%= @booking.place.name %></strong>,
         <%= @booking.place.continent %></h4>
-        <h4 class="text-center">Booking is confirmed!</h4>
-        <p>Check-In  :Friday, November 22, 2019</p>
-        <p>Check-Out :Saturday, March 23, 2019</p>
+        <h4 class="text-center"><strong>Booking is confirmed!</strong></h4>
+        <p>Check-In  :<%= @booking.check_in %></p>
+        <p>Check-Out :<%= @booking.check_out %></p>
         <h5 class="text-center"><em>Enjoy the remoteness!</em></h5>
       </div>
 
       <div class="booking-buttons text-center">
         <ul class="list-inline">
-          <li><%= link_to 'Cancel Booking', booking_path(@booking), method: :delete, class: 'btn btn-ghost' %></li>
-          <li><%= link_to 'Change Booking', "#", class: 'btn btn-ghost' %></li>
+          <li><%= link_to 'Cancel Booking', booking_path(@booking), method: :delete, class: 'btn-ghost' %></li>
+          <li><%= link_to 'Change Booking', booking_path(@booking), class: 'btn-ghost' %></li>
+          <li><%= link_to 'Dashboard', dashboard_path(current_user), class: 'btn-ghost' %></li>
         </ul>
       </div>
     </div>
