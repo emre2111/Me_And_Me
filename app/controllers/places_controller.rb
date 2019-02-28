@@ -23,6 +23,7 @@ class PlacesController < ApplicationController
 
   def create
     @place = Place.create(place_params)
+    @place.availability = true
     if @place.save
       redirect_to places_path
     else
