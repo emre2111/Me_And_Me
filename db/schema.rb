@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 2019_02_26_144624) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "photo"
+    t.string "image_url"
   end
 
   create_table "users", force: :cascade do |t|
