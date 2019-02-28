@@ -1,6 +1,8 @@
 <div class="col-sm-offset-1 col-sm-6">
   <div class="card-booking">
-  <%= image_tag(booking.place.photo, class: 'booking-img') %>
+    <!-- for cloud  -->
+  <%= cl_image_tag( booking.place.photo, class: 'booking-img' ) %>
+
     <div class="card-booking-infos">
       <h2><%= booking.place.name %></h2>
       <p>Check-In : <%= booking.check_in %></p>
