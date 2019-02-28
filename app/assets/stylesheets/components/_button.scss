@@ -1,21 +1,30 @@
   .btn-ghost {
-    color: #363732;
-    border: 1px solid #363732;
-    padding: 10px 18px;
+    color: #ffa826;
+    border: 1px solid #ffa826;
+    padding: 9px 15px;
     border-radius: 6px;
-    font-weight: lighter;
-    transition: opacity 0.3s ease;
+    font-weight: 400;
     font-family: 'Oswald', sans-serif;
-    &:hover {
-      color: #FFFFFF;
-      background-color: #363732 !important;
-      opacity: 1;
-      text-decoration: none;
-      font-weight: lighter;
-      -webkit-transition: background-color 0.2s;
-    }
   }
-
+  .btn-ghost:hover {
+      color: #FFFFFF;
+      background-color: #ffa826;
+      font-weight: 400;
+      -webkit-transition: background-color 0.02s;
+      text-decoration: none;
+  }
+  .btn-ghost:active {
+      background-color: rgba(255, 168, 38, 0.92);
+      border: 1px solid #ffa826;
+      padding: 9px 15px;
+      border-radius: 6px;
+      font-weight: 400;
+      font-family: 'Oswald', sans-serif;
+      color: white;
+  }
   .btn-book {
     margin-top: 20px;
+  }
+  .btn-search {
+    margin-top: 5px;
   }
