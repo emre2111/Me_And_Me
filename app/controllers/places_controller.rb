@@ -1,8 +1,12 @@
 class PlacesController < ApplicationController
   def index
     # @places = Place.find(params[place_params])
-    @places = Place.where(continent: params[:continent], level_of_remoteness: params[:level_of_remoteness])
-    @places
+    if params[:continent].present?
+      @places = Place.where(continent: params[:continent], level_of_remoteness: params[:level_of_remoteness])
+      @places
+    else
+      @places = Place.all
+    end
   end
 
   def show
