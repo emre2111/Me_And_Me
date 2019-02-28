@@ -137,11 +137,11 @@ places_attributes = [
     photo:                'https://images.unsplash.com/photo-1485714841608-40e78fbc7fdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=756&q=80'
   },
   {
-    name:                 'Ipswich',
+    name:                 'Big Sur',
     continent:            'North America',
     availability:         true,
-    level_of_remoteness:  'very remote',
-    photo:                'https://images.unsplash.com/photo-1509738098174-4002778183da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80'
+    level_of_remoteness:  'remote',
+    photo:                'https://tracks-trails.com/wp-content/uploads/2015/07/shutterstock_1275548661.jpg'
   },
  {
     name:                 'McMurdo Station',
@@ -171,7 +171,86 @@ places_attributes = [
     level_of_remoteness:  'remote',
     photo:                'https://images.unsplash.com/photo-1532017201189-87395e311df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=725&q=80'
   },
+  {
+    name:                 'Macquarie Island',
+    continent:            'Australia',
+    availability:         true,
+    level_of_remoteness:  'remote',
+    photo:                'https://upload.wikimedia.org/wikipedia/commons/d/d2/MacquarieIslandIsthmus.JPG'
+  },
+  {
+    name:                 'Svalbard',
+    continent:            'Europe',
+    availability:         true,
+    level_of_remoteness:  'remote',
+    photo:                'https://list25.com/wp-content/uploads/2011/11/Longyearbyen_Gulbrandsen_1140px-610x400.jpg'
+  },
+ {
+    name:                 'Cape York',
+    continent:            'Australia',
+    availability:         true,
+    level_of_remoteness:  'very remote',
+    photo:                'https://d1ic4altzx8ueg.cloudfront.net/finder-au/wp-uploads/2016/09/CapeYork.Shutterstock.jpg'
+  },
+  {
+    name:                 'Coober Pedy',
+    continent:            'Australia',
+    availability:         true,
+    level_of_remoteness:  'very remote',
+    photo:                'https://d1ic4altzx8ueg.cloudfront.net/finder-au/wp-uploads/2016/09/TheBreakawaysCooberPedy.Shutterstock.jpg'
+  },
+  {
+    name:                 'Kangaroo Island',
+    continent:            'Australia',
+    availability:         true,
+    level_of_remoteness:  'extremely remote',
+    photo:                'https://d1ic4altzx8ueg.cloudfront.net/finder-au/wp-uploads/2016/09/AdmiralsArchKangarooIsland.Shutterstock.jpg'
+  },
+  {
+    name:                 'Bay of Fires',
+    continent:            'Australia',
+    availability:         true,
+    level_of_remoteness:  'very remote',
+    photo:                'https://d1ic4altzx8ueg.cloudfront.net/finder-au/wp-uploads/2016/09/BayofFires.Tasmania.Shutterstock.jpg'
+  },
+  {
+    name:                 'The Nullarbor',
+    continent:            'Australia',
+    availability:         true,
+    level_of_remoteness:  'remote',
+    photo:                'https://d1ic4altzx8ueg.cloudfront.net/finder-au/wp-uploads/2016/09/Nullarbor.SouthAustralia.Shutterstock.jpg'
+  },
+  {
+    name:                 'Cradle Mountain',
+    continent:            'Australia',
+    availability:         true,
+    level_of_remoteness:  'very remote',
+    photo:                'https://d1ic4altzx8ueg.cloudfront.net/finder-au/wp-uploads/2016/09/CradleMountainTasmaniaShutterstock.jpg'
+  },
+  {
+    name:                 'Great Sand Dunes',
+    continent:            'North America',
+    availability:         true,
+    level_of_remoteness:  'very remote',
+    photo:                'https://www.colorado.com/sites/default/files/sandunes_nps.jpg'
+  },
+  {
+    name:                 'Denali National Park',
+    continent:            'North America',
+    availability:         true,
+    level_of_remoteness:  'extremely remote',
+    photo:                'https://www.roughguides.com/wp-content/uploads/2017/01/1-Denali-National-Park-BH4FWY-1590x1050.jpg'
+  },
+  {
+    name:                 'Letchworth State Park',
+    continent:            'North America',
+    availability:         true,
+    level_of_remoteness:  'extremely remote',
+    photo:                'http://i.imgur.com/I4tQd.jpg'
+  },
 ]
+
+
 
 Place.create!(places_attributes)
 puts 'Finished!'
