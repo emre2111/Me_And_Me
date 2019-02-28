@@ -1,17 +1,17 @@
   .btn-ghost {
-    color: #FFA826;
-    border: 1px solid #FFA826;
+    color: #363732;
+    border: 1px solid #363732;
     padding: 10px 18px;
     border-radius: 6px;
-    font-weight: 600;
+    font-weight: lighter;
     transition: opacity 0.3s ease;
     font-family: 'Oswald', sans-serif;
     &:hover {
       color: #FFFFFF;
-      background-color: #FFA826 !important;
+      background-color: #363732 !important;
       opacity: 1;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: lighter;
       -webkit-transition: background-color 0.2s;
     }
   }

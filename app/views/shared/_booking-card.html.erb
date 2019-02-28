@@ -1,15 +1,21 @@
-<div class="card-booking">
+<div class="col-sm-offset-1 col-sm-6">
+  <div class="card-booking">
   <%= image_tag(booking.place.photo, class: 'booking-img') %>
-  <div class="card-booking-infos">
-    <div>
+    <div class="card-booking-infos">
       <h2><%= booking.place.name %></h2>
       <p>Check-In : <%= booking.check_in %></p>
       <p>Check-Out : <%= booking.check_out %></p>
-      <ul class="list-inline btns-dashboard">
-        <li><%= link_to 'Cancel Booking', dashboard_path(current_user), method: :delete, class: 'btn-ghost btn-dashboard' %></li>
-        <li><%= link_to 'Change Booking', '#', class: 'btn-ghost btn-dashboard' %></li>
-      </ul>
     </div>
-    <h3 class="card-booking-pricing">in Total 50 euro</h3>
+    <div class="card-booking-button text-right">
+    <ul class="list-unstyled list-inline">
+      <li><%= link_to 'Cancel Booking', dashboard_path(current_user), method: :delete, class: 'btn-ghost btn-dashboard' %></li>
+      <li><%= link_to 'Change Booking', '#', class: 'btn-ghost btn-dashboard' %></li>
+    </ul>
+    </div>
+  </div>
+</div>tn-ghost btn-dashboard' %></li>
+    </ul>
+    </div>
   </div>
 </div>
+
