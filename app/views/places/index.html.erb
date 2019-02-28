@@ -2,13 +2,12 @@
   <div class="index-form">
     <%= form_tag(places_path, method: "get") do %>
       <%= label_tag(:q, "Continent:") %>
-      <% continents = [] %>
       <div class="select_tag">
-      <%= select_tag "continent", options_for_select(Place.continents), class: 'selection-form' %>
+      <%= select_tag "continent", options_for_select(Place.continents, params[:continent]), class: 'selection-form' %>
       </div>
       <%= label_tag(:q, "Remoteness:") %>
       <div class="select_tag">
-        <%= select_tag "level_of_remoteness", options_for_select(Place.level_of_remoteness), class: 'selection-form'%>
+        <%= select_tag "level_of_remoteness", options_for_select(Place.level_of_remoteness, params[:level_of_remoteness]), class: 'selection-form'%>
       </div>
       <div class="Search-button">
         <%= submit_tag "Search", class:"btn btn-primary" %>
