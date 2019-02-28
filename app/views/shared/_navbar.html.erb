@@ -11,6 +11,13 @@
 
       <!-- Links when logged in -->
 
+      <div class="navbar-link-index">
+        <%= link_to("Your bookings", dashboard_path(current_user)) %>
+      </div>
+      <div class="navbar-link-index">
+        <%= link_to("Find a place", places_path) %>
+      </div>
+
       <!-- Avatar with dropdown menu -->
       <div class="navbar-wagon-item">
         <div class="dropdown">
