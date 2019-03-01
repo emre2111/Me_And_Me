@@ -1,22 +1,22 @@
 <div class="container">
-  <div class="index-form">
+  <div class="box-shadow index-form">
     <%= form_tag(places_path, method: "get") do %>
       <%= label_tag(:q, "Continent:") %>
-      <div class="select_tag">
+      <div class="index-form-element select_tag">
       <%= select_tag "continent", options_for_select(Place.continents, params[:continent]), class: 'selection-form' %>
       </div>
       <%= label_tag(:q, "Remoteness:") %>
-      <div class="select_tag">
+      <div class="index-form-element select_tag">
         <%= select_tag "level_of_remoteness", options_for_select(Place.level_of_remoteness, params[:level_of_remoteness]), class: 'selection-form'%>
       </div>
-      <div class="Search-button">
+      <div class="index-form-element Search-button">
         <%= submit_tag "Search", class:"btn-ghost btn-search" %>
       </div>
     <% end %>
   </div>
 
   <div class="title">
-    <h3>Recommended for you</h3>
+    <h3 class="recommended">Recommended places<%= " in #{@places[0].continent}" if params[:continent] %></h3>
   </div>
   <div class="row places-row">
 
