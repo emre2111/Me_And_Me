@@ -18,7 +18,8 @@ class BookingsController < ApplicationController
     if @booking.save
       redirect_to booking_path(@booking)
     else
-      render :new
+      flash[:alert] = "please try again"
+      redirect_to place_path(@place)
     end
   end
 
@@ -36,7 +37,7 @@ class BookingsController < ApplicationController
     @booking = Booking.find(params[:id])
     @booking.destroy
     flash[:notice] = "your booking has been cancelled"
-    redirect_to root_path
+    redirect_to dashboard_path(current_user)
   end
 
   private
