@@ -107,7 +107,7 @@ places_attributes = [
   availability:         true,
   price:                 140,
   level_of_remoteness:  'extremely remote',
-  remote_photo_url:     'https://images.unsplash.com/photo-1518260243959-eaff079e5987?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&q=80'
+  remote_photo_url:     'https://images.unsplash.com/photo-1516426122078-c23e76319801?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80'
 },
 {
   name:                 'Atacama',
