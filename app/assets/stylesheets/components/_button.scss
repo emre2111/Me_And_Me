@@ -50,6 +50,29 @@
       border: 1px solid #ffa826;
     }
 
+  .btn-primary:active {
+    color: #FFFFFF;
+    border: 1px solid #ffa826 !important;
+    background-color: #ffa826 !important;
+     -webkit-transition: background-color 0.02s;
+    font-weight: 400;
+    padding: 9px 15px;
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    }
+
+  .btn-primary:focus {
+    color: #FFFFFF;
+    border: 1px solid #ffa826 !important;
+    background-color: #ffa826 !important;
+     -webkit-transition: background-color 0.02s;
+    font-weight: 400;
+    padding: 9px 15px;
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    }
+
+
   .btn-opacity {
     opacity: 0.6;
     &:hover {
@@ -58,4 +81,12 @@
     color: #ffa826;
     border: 1px solid #ffa826;
     }
+  }
+
+  .btn-opacity:active {
+    opacity: 0.6;
+  }
+
+  .btn-opacity:focus {
+    opacity: 0.6;
   }

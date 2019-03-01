@@ -3,20 +3,25 @@
     <div class="show-description">
       <div class="booking-description text-center">
         <h3 class="text-center">Your trip to <strong class="booked-place"><%= @booking.place.name %></strong> is confirmed!</h3>
-        <p><strong>Check-In: </strong><%= @booking.check_in %></p>
-        <p><strong>Check-Out: </strong><%= @booking.check_out %></p>
-        <p class="enjoy-message">Enjoy your remote vacation in <%= @booking.place.continent %>!</p>
-      </div>
+          <p>
+            <strong>Dates: </strong>Check in on <%=
+            @booking.check_in %> for a <%= (@booking.check_out.to_time.to_i - @booking.check_in.to_time.to_i)/86400 %> days stay.
+          </p>
+          <p>
+            <strong>Total: </strong> €<%=  (@booking.check_out.to_time.to_i - @booking.check_in.to_time.to_i)/86400 * @booking.place.price%>
+          </p>
+          <p class="enjoy-message">Enjoy your remote vacation in <%= @booking.place.continent %>!</p>
+        </div>
 
-      <div class="booking-buttons text-center">
-        <ul class="list-inline">
-          <li><%= link_to 'Cancel Booking', booking_path(@booking), method: :delete, class: 'btn-ghost btn-opacity' %></li>
-          <li><%= link_to 'Change Booking', edit_booking_path(@booking), class: 'btn-ghost btn-opacity' %></li>
-          <li><%= link_to 'Dashboard', dashboard_path(current_user), class: 'btn-primary' %></li>
-        </ul>
+        <div class="booking-buttons text-center">
+          <ul class="list-inline">
+            <li><%= link_to 'Cancel Booking', booking_path(@booking), method: :delete, class: 'btn-ghost btn-opacity' %></li>
+            <li><%= link_to 'Change Booking', edit_booking_path(@booking), class: 'btn-ghost btn-opacity' %></li>
+            <li><%= link_to 'Dashboard', dashboard_path(current_user), class: 'btn-primary' %></li>
+          </ul>
+        </div>
+        <div class="show-image" style="background-image: url(<%= @booking.place.photo%> ) "></div>
       </div>
-    <div class="show-image" style="background-image: url(<%= @booking.place.photo%> ) "></div>
-  </div>
-</div>
+    </div>
 
 
