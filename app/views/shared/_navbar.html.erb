@@ -12,10 +12,10 @@
       <!-- Links when logged in -->
 
       <div class="navbar-link-index">
-        <%= link_to("Your bookings", dashboard_path(current_user)) %>
+        <%= link_to("Home", places_path) %>
       </div>
       <div class="navbar-link-index">
-        <%= link_to("Find a place", places_path) %>
+        <%= link_to("Your bookings", dashboard_path(current_user)) %>
       </div>
 
       <!-- Avatar with dropdown menu -->

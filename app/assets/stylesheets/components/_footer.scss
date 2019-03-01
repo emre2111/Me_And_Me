@@ -1,5 +1,5 @@
 .footer {
-  background: #F4F4F4;
+  background: #1b1b1b;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,8 +20,13 @@
   padding: 0px 10px;
 }
 .footer-links a:hover {
+  color: white;
   opacity: 1;
 }
 .footer .fa-heart {
   color: #D23333;
+}
+
+.footer-copyright:hover {
+  color: white;
 }
