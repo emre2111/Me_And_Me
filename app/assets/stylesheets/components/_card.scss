@@ -12,10 +12,12 @@
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-bottom: 23px;
+  position: relative;
 }
 
 .card-category:hover{
   opacity: 0.95;
+  transform: scale(1.01);
 }
 
 .card-category:active{
@@ -24,8 +26,15 @@
 
 .place-name {
   position: absolute;
+  left: 0;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
   bottom: 54px;
   font-weight: lighter;
+  color: white;
+  justify-content: center;
 }
 
 // .card-icon {
