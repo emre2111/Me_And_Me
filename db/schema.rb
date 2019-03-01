@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2019_02_26_144624) do
   create_table "places", force: :cascade do |t|
     t.string "name"
     t.string "continent"
-    t.boolean "availability"
+    t.boolean "availability", default: true
     t.string "level_of_remoteness"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
