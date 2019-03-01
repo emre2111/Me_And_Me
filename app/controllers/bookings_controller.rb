@@ -18,7 +18,8 @@ class BookingsController < ApplicationController
     if @booking.save
       redirect_to booking_path(@booking)
     else
-      render :new
+      flash[:alert] = "please try again"
+      redirect_to place_path(@place)
     end
   end
 
