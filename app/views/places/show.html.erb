@@ -1,6 +1,6 @@
 <div class="container">
 <div class="show-container">
-  <div class="show-description text-center">
+  <div class="box-shadow show-description text-center">
     <h3><%= @place.name %></h3>
     <p><%= @place.continent %></p>
     <p><%= @place.level_of_remoteness %><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
@@ -9,7 +9,7 @@
       <%= render 'shared/form' %>
     </div>
   </div>
-  <div class="show-image" style="background-image: url(<%= @place.photo%> ) ">
+  <div class="box-shadow show-image" style="background-image: url(<%= @place.photo%> ) ">
     <div class="show-icon"><i class="far fa-heart"></i></div>
   </div>
 </div>
