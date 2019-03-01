@@ -26,7 +26,7 @@ places_attributes = [
   continent:            'Asia',
   availability:         true,
   price:                 60,
-  level_of_remoteness:  'remote',
+  level_of_remoteness:  'very remote',
   remote_photo_url:     'https://images.unsplash.com/photo-1457459686225-c7db79d4e59f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
 },
 {
@@ -58,7 +58,7 @@ places_attributes = [
   continent:            'Asia',
   availability:         true,
   price:                 50,
-  level_of_remoteness:  'remote',
+  level_of_remoteness:  'very remote',
   remote_photo_url:     'https://images.unsplash.com/photo-1527401850656-0f34108fdb30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=870&q=80'
 },
 {
@@ -66,7 +66,7 @@ places_attributes = [
   continent:            'Asia',
   availability:         true,
   price:                 50,
-  level_of_remoteness:  'remote',
+  level_of_remoteness:  'extremely remote',
   remote_photo_url:     'https://images.unsplash.com/photo-1547720074-e65ac1a46546?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
 },
 {
@@ -90,7 +90,7 @@ places_attributes = [
   continent:            'Asia',
   availability:         true,
   price:                 40,
-  level_of_remoteness:  'remote',
+  level_of_remoteness:  'extremely remote',
   remote_photo_url:     'https://images.unsplash.com/photo-1512291854075-368fef66af69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80'
 },
 {
@@ -174,12 +174,44 @@ places_attributes = [
   remote_photo_url:     'https://images.unsplash.com/photo-1516977621718-a0cb58c12ebb?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
 },
 {
+  name:                 'Antarctica Sailing',
+  continent:            'Antarctica',
+  availability:         true,
+  price:                 250,
+  level_of_remoteness:  'remote',
+  remote_photo_url:     'https://images.unsplash.com/photo-1516468243909-447fc0468ded?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'
+},
+{
+  name:                 'King George Island',
+  continent:            'Antarctica',
+  availability:         true,
+  price:                 250,
+  level_of_remoteness:  'very remote',
+  remote_photo_url:     'https://images.unsplash.com/photo-1551005915-0e81d56723e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=824&q=80'
+},
+{
   name:                 'Guatemala',
   continent:            'South America',
   availability:         true,
   price:                 120,
   level_of_remoteness:  'very remote',
   remote_photo_url:     'https://images.unsplash.com/photo-1495571344521-cec5d366af78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80'
+},
+{
+  name:                 'Cuba',
+  continent:            'South America',
+  availability:         true,
+  price:                 90,
+  level_of_remoteness:  'remote',
+  remote_photo_url:     'https://images.unsplash.com/photo-1551086144-2e1250996ba7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80'
+},
+{
+  name:                 'Mexico',
+  continent:            'South America',
+  availability:         true,
+  price:                 100,
+  level_of_remoteness:  'extremely remote',
+  remote_photo_url:     'https://images.unsplash.com/photo-1529905813659-be668545a2a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
 },
 {
   name:                 'Bled',
@@ -212,6 +244,22 @@ places_attributes = [
   price:                 50,
   level_of_remoteness:  'remote',
   remote_photo_url:     'https://list25.com/wp-content/uploads/2011/11/Longyearbyen_Gulbrandsen_1140px-610x400.jpg'
+},
+{
+  name:                 'Prags',
+  continent:            'Europe',
+  availability:         true,
+  price:                 50,
+  level_of_remoteness:  'extremely remote',
+  remote_photo_url:     'https://images.unsplash.com/photo-1519375722682-222902a76bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=777&q=80'
+},
+{
+  name:                 'Hovden',
+  continent:            'Europe',
+  availability:         true,
+  price:                 50,
+  level_of_remoteness:  'very remote',
+  remote_photo_url:     'https://images.unsplash.com/photo-1474562789610-2a30fa4a6608?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'
 },
 {
   name:                 'Cape York',

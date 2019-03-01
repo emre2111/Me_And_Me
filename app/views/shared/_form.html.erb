@@ -1,6 +1,6 @@
 <%= simple_form_for @booking do |f| %>
-<%= f.input :check_in, as: :string, input_html: {id: "start_date"} %>
-<%= f.input :check_out, as: :string, input_html: {id: "end_date"} %>
+<%= f.input :check_in, as: :string,  input_html: {id: "start_date"}, required: true %>
+<%= f.input :check_out, as: :string, input_html: {id: "end_date"}, required: true %>
 
 <%= f.input :place_id, input_html: {value: params[:id]}, wrapper_html: {class: "hidden"}  %>
 <%= f.submit 'Book', class: "btn-ghost btn-book" %>

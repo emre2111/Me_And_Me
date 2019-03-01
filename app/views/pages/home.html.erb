@@ -1,11 +1,14 @@
 <div class="home">
   <%= render 'shared/navbar' %>
+  <div class ="hover">
+  <%= cl_image_tag("homePageImage", class: "img-background") %>
+  </div>
     <div class="container">
       <div class="home_content">
-        <h1>Find a place with Me&Me</h1>
-        <p>In our globalized world that places an impact on big cities and urbanization, we may often forget what the world used to look like before pollution, suburbs, and sprawling malls. Luckily, there are still some amazing spots in the world that are almost completely untouched by human civilization. </p>
+        <h1 id="home-header">Find a place with Me&Me</h1>
+        <p id="home-paragraph">In our globalized world that places an impact on big cities and urbanization, we may often forget what the world used to look like before pollution, suburbs, and sprawling malls. Luckily, there are still some amazing spots in the world that are almost completely untouched by human civilization. </p>
         <div>
-          <%= link_to 'Leave me alone', places_path, class: 'btn-ghost' %>
+          <%= link_to 'Leave me alone', places_path, class: 'btn-ghost home-button' %>
       </div>
     </div>
   </div>
