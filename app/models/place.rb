@@ -12,6 +12,6 @@ class Place < ApplicationRecord
   end
 
   def self.level_of_remoteness
-    pluck(:level_of_remoteness).uniq.sort
+    ["remote", "very remote", "extremely remote"]
   end
 end
