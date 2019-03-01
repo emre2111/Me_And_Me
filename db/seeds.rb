@@ -5,6 +5,7 @@ puts 'Creating places...'
 
 places_attributes = [
  {
+
   name:                 'Sahara',
   continent:            'Africa',
   price:                 90,
@@ -13,7 +14,7 @@ places_attributes = [
   remote_photo_url:      'https://images.unsplash.com/photo-1523549115643-7fc0b74a2250?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
 },
 {
-  name:                 'Tristan De Cunha',
+  name:                 'Tris De Cunha',
   continent:            'Africa',
   availability:         true,
   price:                 80,
